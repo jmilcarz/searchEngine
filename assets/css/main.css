@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: #f3f3f3; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+nav#sitenav {
+  border-bottom: 3px solid #ecebec;
+  height: 55px; }
+  nav#sitenav .container {
+    height: 55px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    nav#sitenav .container a {
+      color: #e73939;
+      font-size: 24px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 800; }
+    nav#sitenav .container form {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      nav#sitenav .container form input, nav#sitenav .container form button {
+        border: none;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0 5px;
+        margin: 0;
+        outline: none;
+        height: 34px;
+        border: 1px solid #ecebec;
+        font-size: 13px; }
+      nav#sitenav .container form input {
+        width: 225px;
+        margin-right: 3px;
+        -webkit-transition: 130ms all ease-in-out;
+        -o-transition: 130ms all ease-in-out;
+        transition: 130ms all ease-in-out; }
+        nav#sitenav .container form input:focus {
+          border-color: 1px solid #e73939; }
+      nav#sitenav .container form button {
+        width: 75px;
+        -webkit-transition: 130ms all ease-in-out;
+        -o-transition: 130ms all ease-in-out;
+        transition: 130ms all ease-in-out; }
+        nav#sitenav .container form button:hover {
+          cursor: pointer;
+          background: #e73939;
+          color: #fff; }

@@ -1,1 +1,51 @@
 @import "modules/vars.sass"
+
+body
+     margin: 0
+     font-family: 'Roboto', sans-serif
+     background: #f3f3f3
+
+.container
+     max-width: 1200px
+     margin: 0 auto
+
+nav#sitenav
+     border-bottom: 3px solid #ecebec
+     height: 55px
+     .container
+          height: 55px
+          display: flex
+          justify-content: space-between
+          align-items: center
+          a
+               color: $niceblue
+               font-size: 24px
+               text-transform: uppercase
+               text-decoration: none
+               font-weight: 800
+
+          form
+               display: flex
+               input, button
+                    border: none
+                    box-sizing: border-box
+                    padding: 0 5px
+                    margin: 0
+                    outline: none
+                    height: 34px
+                    border: 1px solid #ecebec
+                    font-size: 13px
+               input
+                    width: 225px
+                    margin-right: 3px
+                    transition: 130ms all ease-in-out
+                    &:focus
+                         border-color: 1px solid $niceblue
+                         
+               button
+                    width: 75px
+                    transition: 130ms all ease-in-out
+                    &:hover
+                         cursor: pointer
+                         background: $niceblue
+                         color: #fff
